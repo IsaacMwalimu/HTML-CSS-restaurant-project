@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Savanna Bites Restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Savanna<span>Bites</span></a>
+
+      <!-- CSS-only menu toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn btn-sm">Book a Table</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="badge">Fresh • Local • Delicious</p>
+          <h1>Welcome to <span>Savanna Bites</span></h1>
+          <p class="lead">
+            A cozy restaurant serving tasty meals made from fresh ingredients. Enjoy a warm atmosphere,
+            great service, and food you’ll love.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn">View Menu</a>
+            <a href="#contact" class="btn btn-outline">Reserve Now</a>
+          </div>
+
+          <div class="highlights">
+            <div class="highlight">
+              <h3>30+</h3>
+              <p>Dishes</p>
+            </div>
+            <div class="highlight">
+              <h3>4.8★</h3>
+              <p>Reviews</p>
+            </div>
+            <div class="highlight">
+              <h3>10AM–10PM</h3>
+              <p>Open Daily</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg"
+            alt="Restaurant table setup"
+          />
+          <div class="floating-card">
+            <h4>Chef’s Special Today</h4>
+            <p>Grilled chicken + rosemary potatoes + salad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg"
+            alt="People enjoying a meal"
+          />
+        </div>
+
+        <div class="about-text">
+          <h2>About Savanna Bites</h2>
+          <p>
+            We’re a friendly restaurant focused on quality, flavor, and unforgettable experiences.
+            Our chefs prepare meals with care—whether you’re coming for lunch, dinner, or celebrations.
+          </p>
+
+          <div class="about-cards">
+            <div class="mini-card">
+              <h4>🍳 Fresh Ingredients</h4>
+              <p>We source locally for better taste and quality.</p>
+            </div>
+            <div class="mini-card">
+              <h4>👩‍🍳 Skilled Chefs</h4>
+              <p>Every dish is crafted with passion and skill.</p>
+            </div>
+            <div class="mini-card">
+              <h4>🌿 Cozy Ambience</h4>
+              <p>Comfortable dining space for families and friends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Menu</h2>
+          <p>Responsive menu cards — perfect for practicing grid layout and images.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg" alt="Burger" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Classic Burger</h3>
+                <span class="price">Ksh 550</span>
+              </div>
+              <p>Juicy beef patty, cheese, fresh veggies, and special sauce.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Pizza" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Cheesy Pizza</h3>
+                <span class="price">Ksh 900</span>
+              </div>
+              <p>Loaded with cheese and toppings on a crispy crust.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg" alt="Pasta" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Creamy Pasta</h3>
+                <span class="price">Ksh 750</span>
+              </div>
+              <p>Rich creamy sauce, herbs, and perfectly cooked pasta.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Salad" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Healthy Salad</h3>
+                <span class="price">Ksh 450</span>
+              </div>
+              <p>Fresh greens, veggies, avocado, and light dressing.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" alt="Steak" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Grilled Steak</h3>
+                <span class="price">Ksh 1,200</span>
+              </div>
+              <p>Well-seasoned steak grilled to perfection.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg" alt="Juice" />
+            <div class="menu-body">
+              <div class="menu-top">
+                <h3>Fresh Juice</h3>
+                <span class="price">Ksh 250</span>
+              </div>
+              <p>Natural fruit juice made fresh to order.</p>
+              <a href="#contact" class="btn btn-block">Order / Reserve</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Gallery</h2>
+          <p>Responsive image grid that adjusts across screen sizes.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg" alt="Food 1" />
+          <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg" alt="Food 2" />
+          <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="Food 3" />
+          <img src="https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg" alt="Food 4" />
+          <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg" alt="Food 5" />
+          <img src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg" alt="Food 6" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Reservation -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Book a Table</h2>
+          <p>
+            Practice responsive forms with a 2-column layout on desktop and 1-column on mobile.
+          </p>
+
+          <div class="contact-cards">
+            <div class="mini-card">
+              <h4>📍 Location</h4>
+              <p>Ngong Road, Nairobi</p>
+            </div>
+            <div class="mini-card">
+              <h4>📞 Phone</h4>
+              <p>+254 700 000 000</p>
+            </div>
+            <div class="mini-card">
+              <h4>⏰ Hours</h4>
+              <p>Daily: 10:00 AM – 10:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input id="name" type="text" placeholder="e.g. Isaac M." required />
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="e.g. 0712 345 678" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" type="date" required />
+            </div>
+
+            <div class="field">
+              <label for="people">People</label>
+              <select id="people" required>
+                <option value="">Select</option>
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>3 People</option>
+                <option>4 People</option>
+                <option>5+ People</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Special Request</label>
+            <textarea id="message" rows="5" placeholder="Any allergies or special requests?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Reserve Table</button>
+          <p class="form-note">We will confirm your reservation by phone.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="logo">Savanna<span>Bites</span></a>
+        <p class="muted">A responsive HTML & CSS restaurant project for students.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Book</a>
+      </div>
+
+      <p class="muted">© 2026 Savanna Bites. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
